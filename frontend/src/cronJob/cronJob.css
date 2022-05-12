@@ -1,0 +1,14 @@
+.mainContainer {
+  background: linear-gradient(rgba(1, 10, 49, 0.5), transparent);
+}
+.myConfirmButton {
+  background: linear-gradient(rgba(243, 41, 51, 0.5), transparent);
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #f8f2f2;
+  width: 10rem;
+  height: 3rem;
+  border-color: aliceblue;
+  box-shadow: 5px 10px #888888;
+}
