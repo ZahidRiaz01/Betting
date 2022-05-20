@@ -1,14 +1,124 @@
 .mainContainer {
-  background: linear-gradient(rgba(1, 10, 49, 0.5), transparent);
+   
+  align-items: center;
+  /* display: flex; */
 }
 .myConfirmButton {
-  background: linear-gradient(rgba(243, 41, 51, 0.5), transparent);
+  background:  rgb(194, 48, 48);
   border-radius: 10px;
   font-size: 22px;
   font-weight: bold;
-  color: #f8f2f2;
+  color: #ffffff;
   width: 10rem;
   height: 3rem;
   border-color: aliceblue;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 1px 2px #292828;
 }
+  /* body {
+    background: #18224B;
+    font-family: sans-serif;
+  } */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.main-content h3 {
+  color: #fff;
+  margin-bottom: 8px;
+  
+}
+.light-form .field {
+  position: relative;
+  width: 100%;
+}
+
+.light-form {
+  width: 380px;
+}
+
+
+.light-form label {
+  margin-bottom: 10px;
+  color: #fff;
+  display: block;
+  font-family: sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  
+}
+:-ms-input-placeholder {
+  color: #fff;
+  @include fontSize(14);
+}
+
+.light-form input {
+  display: block;
+  width: 100%;
+  background: linear-gradient(to right, rgb(194, 48, 48) 50%, #290268 50%);
+  background-size: 205% 100%;
+  background-position: 99% 0%;
+  text-transform: initial;
+  border-radius: 4px;
+  padding: 12px;
+  border-color: transparent;
+  transition: all .7s ease;
+  color: #fff;
+}
+
+.light-form input:focus {
+  outline: none;
+  background-position: 1% 100%;
+  color: #f2f8f8;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.light-form input:focus + .button {
+  opacity: 1;
+  transform: translate(0);
+  transition: transform .6s, opacity .59s;
+  transition-timing-function: ease;
+  
+}
+
+.light-form .button {
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  height: 55px;
+  display: block;
+  text-align: center;
+  background: #3A9188;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  border: none;
+  border-radius: 4px;
+  top: 0px;
+  right: 0px;
+  opacity: 0;
+  transform: translate(-100px);
+  box-shadow: -2px 0px 2px 0px rgba(0, 0, 0, .6);
+}
+
